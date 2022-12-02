@@ -1,0 +1,34 @@
+/target
+.idea/
+.venv/
+*/.pytest_cache/
+*.so
+.vscode/
+*/__pycache__/
+*.pyc
+
+bindings/generic_model.egg-info/
+bindings/dist/
+bindings/build/
+bindings/.pytest_cache/
+bindings/src/generic_model.egg-info/
+
+*.js
+lambdas/
+!jest.config.js
+*.d.ts
+node_modules
+
+# CDK asset staging directory
+.cdk.staging
+cdk.out
+
+# Parcel default cache directory
+.parcel-cache
+
+/bom.xml
+
+.vscode/
+.idea/
+
+*.log

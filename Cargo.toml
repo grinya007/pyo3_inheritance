@@ -1,0 +1,3 @@
+[workspace]
+members = ["base_lib", "sub1_lib"]
+resolver = "2"
